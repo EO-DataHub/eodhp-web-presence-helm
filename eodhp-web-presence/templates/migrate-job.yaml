@@ -8,6 +8,7 @@ metadata:
 spec:
   template:
     spec:
+      serviceAccountName: {{ .Values.web.serviceAccount.name }}
       containers:
       - name: db-migrate
         image: "{{ .Values.web.image.name }}:{{ default "latest" .Values.web.image.tag }}"
