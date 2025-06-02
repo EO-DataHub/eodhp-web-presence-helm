@@ -1,3 +1,5 @@
+This repository has been archived. Helm charts are no longer used for the web presence
+
 # eodhp-web-presence-helm
 
 This provides the infrastructure for the [EODHP Web Presence](https://github.com/UKEODHP/eodhp-web-presence).
